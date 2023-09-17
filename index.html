@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kalkulator Laba Bersih</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Kalkulator Laba Bersih</h1>
+        <form id="calculator">
+            <label for="hargaModal">Harga Modal (Rp):</label>
+            <input type="number" id="hargaModal" required><br>
+
+            <label for="jumlahProduk">Jumlah Produk:</label>
+            <input type="number" id="jumlahProduk" required><br>
+
+            <label for="hargaJual">Harga Jual (Rp):</label>
+            <input type="number" id="hargaJual" required><br>
+
+            <label for="biayaOperasional">Biaya Operasional (Rp):</label>
+            <input type="number" id="biayaOperasional" required><br>
+
+            <label for="biayaPajak">Biaya Pajak (Rp):</label>
+            <input type="number" id="biayaPajak" required><br>
+
+            <button type="button" id="hitungButton">Hitung Laba Bersih</button>
+        </form>
+
+        <div id="hasil">
+            <h2>Hasil:</h2>
+            <p id="labaBersih">Laba Bersih: Rp 0</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
